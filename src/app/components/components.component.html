@@ -1,0 +1,30 @@
+<div class="wrapper">
+    <div class="page-header section-dark mr-auto ml-auto">
+        <div class="card page-carousel">
+            <ngb-carousel *ngIf="images">
+                <ng-template ngbSlide *ngFor="let slide of images; index as i">
+                    <img [src]="slide.img" alt="{{ slide.description }}">
+                    <div class="carousel-caption">
+                        <h2>{{ slide.description }}</h2>
+                    </div>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+    </div>
+    <div class="main">
+        <hr>
+        <div class="section javascript-components">
+            <div class="container">
+                <div class="row" id="modals">
+                    <div class="col-md-6">
+                        <div class="tim-title">
+                            <h3>Criar usuário</h3>
+                        </div>
+                        <p>&nbsp;</p>
+                        <app-modal-component></app-modal-component>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
