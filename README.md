@@ -25,7 +25,17 @@ At present, we officially aim to support the last two versions of the following 
 
 ## Licensing
 
-- Copyright 2019 Rodrigo Pereira
+<table>
+  <tr>
+    <td>
+      <img src="https://avatars2.githubusercontent.com/u/8739638?s=460&v=4" width="100">
+    </td>
+    <td>
+      :octocat: - Copyright 2019 - Rodrigo Pereira<br />
+      <a href="mailto:rodrigopluz@gmail.com">:point_right: rodrigopluz@gmail.com</a><br />
+    </td>
+  </tr>
+</table>
 
 ##### Social Media
 
